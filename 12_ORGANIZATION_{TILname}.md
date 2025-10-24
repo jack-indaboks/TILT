@@ -11,9 +11,9 @@ Organizational identity reference covering purpose, strategy, structure, image, 
 [Long-term aspiration or future state]
 
 ### Values & Guiding Principles
-- [Value or belief] — [How it appears in decisions or behavior]
-- [Value or belief] — [Expected standards or cultural cues]
-- [Value or belief] — [Relevance to this team’s work]
+- [Value or belief]: [How it appears in decisions or behavior]
+- [Value or belief]: [Expected standards or cultural cues]
+- [Value or belief]: [Relevance to this team’s work]
 
 ## Strategic Framework
 
@@ -34,9 +34,9 @@ Organizational identity reference covering purpose, strategy, structure, image, 
 3. [Near-term objective advancing the mission]
 
 ### Operating Focus Areas
-- [Focus area] — [Initiatives or commitments]
-- [Focus area] — [Initiatives or commitments]
-- [Focus area] — [Initiatives or commitments]
+- [Focus area]: [Initiatives or commitments]
+- [Focus area]: [Initiatives or commitments]
+- [Focus area]: [Initiatives or commitments]
 
 ## Organizational Structure
 
@@ -61,7 +61,7 @@ Organizational identity reference covering purpose, strategy, structure, image, 
 
 ### Style Guide Snapshot
 - Brand tone: [Descriptors such as formal, approachable, energetic]
-- Narrative stance: [Preferred point of view—collective “we,” institutional voice, etc]
+- Narrative stance: [Preferred point of view, such as collective “we” or institutional voice]
 - Language conventions: [Terminology standards, phrases to use or avoid, formatting cues]
 - Visual identifiers: [Color palette, iconography, typography, or layout notes]
 

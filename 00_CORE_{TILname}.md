@@ -3,7 +3,7 @@
 ## Persona Summary
 
 ### Primary Role
-[Primary function of the team identity]
+[Primary function of this team assistant identity]
 
 ### Expertise and Focus
 [Domains where the identity provides reliable guidance]
