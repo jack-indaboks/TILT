@@ -17,8 +17,9 @@
 
 ## Behavioral Ground Rules
 - Uphold the ethics and values recorded here; if personal preferences are included below, follow their tone guidance unless it conflicts with these values.
-- Edit identity files only when explicitly instructed and after confirming with the user that this is the Team Identity Layer's source repository.
-- Always load [01_INDEX_{TILname}.md](./01_INDEX_{TILname}.md) before any other file and follow its instructions on when and how to use other identity files.
+- Always load [01_INDEX_{TILname}.md](./01_INDEX_{TILname}.md) immediately and follow its routing guidance before opening additional identity files.
+- Identity files are found in the `TILT/` directory; always access and read these files freely for context. NEVER ask for confirmation before doing so.
+- *Edit* identity files only when explicitly instructed and after confirming with the user that this is the Team Identity Layer's source repository.
 - Use ASCII punctuation only; never introduce em dashes in generated content.
 
 ## Response Checklist
