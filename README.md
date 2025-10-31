@@ -4,20 +4,21 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 
 ## Structure
 
-| Index | File | Purpose |
-|-------|------|---------|
-| 00 | 00_CORE_{TILname}.md | Central system prompt: the non-negotiable instructions, values, and operating intent for this Team Identity Layer. |
-| 01 | 01_INDEX_{TILname}.md | Routing table that explains when to load each identity file and what requirements gate it. |
-| 02 | 02_TASKS_{TILname}.md | Repeatable procedures the team relies on; run them verbatim when triggers fire. |
-| 03 | 03_SOURCES_{TILname}.md | Registry of preferred references and the allowed / disallowed lists to obey before researching. |
-| 04-08 | None | Reserved for future templates. |
-| 09 | 09_MEMORY.md | Optional shared memory log the AI creates when durable recall is needed. |
-| 10 | 10_USER_{TILname}.md | User identification protocols and recognition cues when the user’s identity is uncertain. |
-| 11 | 11_PEOPLE_{TILname}.md | Context profiles for users and any other relevant people. |
-| 12 | 12_ORGANIZATION_{TILname}.md | Mission, values, and structure of the host organization. |
-| 13 | 13_ENVIRONMENT_{TILname}.md | Tooling, communication channels, workflows, and constraints. |
-| 14-18 | None | Reserved for future templates. |
-| 19 | 19_GLOSSARY_{TILname}.md | Canonical definitions for team-specific language. |
+| Range | Category | Purpose |
+|-------|----------|---------|
+| 00 | `00_CORE_{TILname}.md` | Central system prompt with the team’s non-negotiable instructions, values, and operating intent. |
+| 01 | `01_INDEX_{TILname}.md` | Routing guide that tells the agent when to load each identity file and what prerequisites apply. |
+| 02 | `02_TASKS_{TILname}.md` | Repeatable procedures the team relies on; the agent runs them verbatim when triggers fire. |
+| 03 | `03_SOURCES_{TILname}.md` | Registry of preferred references plus the allowed and disallowed lists that govern research. |
+| 04-08 | Reserved | Future core template slots shared across team identity layers. |
+| 09 | `09_MEMORY.md` | Optional shared memory log the agent creates only when the deployment supports file writes. |
+| 10 | `10_USER_{TILname}.md` | User identification protocols and recognition cues for ambiguous interactions. |
+| 11 | `11_PEOPLE_{TILname}.md` | Context profiles for team members, stakeholders, and other relevant people. |
+| 12 | `12_ORGANIZATION_{TILname}.md` | Mission, values, and structure of the host organization. |
+| 13 | `13_ENVIRONMENT_{TILname}.md` | Tooling, communication channels, workflows, and operating constraints. |
+| 14-18 | Reserved | Future shared template slots. |
+| 19 | `19_GLOSSARY_{TILname}.md` | Canonical definitions for team-specific language and shorthand. |
+| 20-99 | Custom extensions | Additional identity files your team creates to extend the layer. |
 
 ## For Identity Maintainers
 
@@ -32,6 +33,8 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 
 ## For Operators and End Users
 
-1. Deploy this Team Identity Layer by placing `00_CORE_{TILname}.md` in the system prompt (or equivalent) and staging the supporting files wherever your interface expects them: file upload dialog, `.github/identity`, shared drive, etc.
-2. Pair this team layer with a personal layer by appending the personal `00_CORE` file after the team `00_CORE` and staging all identity files from both layers.
-3. For durable recall, ensure the deployment environment allows the AI to create `09_MEMORY.md`; the agent will generate and update the file when necessary.
+1. Paste `00_CORE_{TILname}.md` at the top of the system prompt (or equivalent) so the team directives load first; if you are running a blended stack, paste the personal core immediately afterward.
+2. Upload or stage the supporting identity files:
+    - Simple file-upload interfaces (for example, ChatGPT or Anthropic Workbench): attach every remaining team identity file (include personal files when blending), treat the uploaded copies as read-only, re-uploading any modified files as they are changed in this source repository.
+    - Directory-based workflows (for example, GitHub Copilot repositories): place the team bundle inside `.github/1_{TILname}/` and any paired personal layer inside `.github/2_{PILname}/`; keep Markdown links intact because the agent depends on them to traverse the identity files.
+3. For durable and/or portable memory, ensure the deployment environment allows the AI to create `09_MEMORY.md`; the agent will generate and update the file when necessary.
