@@ -27,9 +27,10 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 3. Keep all identity files directed at the AI and remove unused placeholders. Use this README for any human-facing notes.
 4. Provide either an Allowed list or a Disallowed list in `03_SOURCES_{TILname}.md`; omit the unused section to avoid conflicts.
 5. Slots 20–99 are available for additional identity files. For compatibility, avoid adding or renaming files in the 00–19 range.
-6. Whenever you add, rename, retire, or relocate any identity file, whether in the core slots (00-19) or custom extensions (20-99), update `01_INDEX_{TILname}.md`, keep this README’s structure table in sync with the index, and ensure any cross-references in other files stay aligned.
-7. Test the identity in your target interface(s) and iterate until the persona, tone, and guardrails behave as intended.
-8. Version this Team Identity Layer (tags or branches) so composite identities can pull updates confidently.
+6. Name every file in the 20–99 range using `NN_{TILname}_FileName.md`; hyphens are allowed inside `FileName` as needed. Consider reserving each band’s `N0` slot, such as 20 or 30 or 40, for the overview or template governing that category.
+7. Whenever you add, rename, retire, or relocate any identity file, whether in the core slots (00-19) or custom extensions (20-99), update `01_INDEX_{TILname}.md`, keep this README’s structure table in sync with the index, and ensure any cross-references in other files stay aligned.
+8. Test the identity in your target interface(s) and iterate until the persona, tone, and guardrails behave as intended.
+9. Version this Team Identity Layer (tags or branches) so composite identities can pull updates confidently.
 
 ## For Operators and End Users
 
