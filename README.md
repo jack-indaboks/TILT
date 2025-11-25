@@ -12,13 +12,15 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 | 01 | `01_INDEX_{ILname}.md` | Routing guide that tells the agent when to load each identity file and what prerequisites apply. |
 | 02 | `02_TASKS_{ILname}.md` | Repeatable procedures the team relies on; the agent runs them verbatim when triggers fire. |
 | 03 | `03_SOURCES_{ILname}.md` | Registry of preferred references plus the allowed and disallowed lists that govern research. |
-| 04-08 | Reserved | Future core template slots shared across team identity layers. |
+| 04 | `04_PERSONAS_{ILname}.md` | Catalog of alternate personas plus activation guidance for sanctioned voice shifts. |
+| 05-08 | Reserved | Future core template slots shared across team identity layers. |
 | 09 | `09_MEMORY.md` | Optional shared memory log the agent creates only when the deployment supports file writes. |
 | 10 | `10_USER_{ILname}.md` | User identification protocols and recognition cues for ambiguous interactions. |
 | 11 | `11_PEOPLE_{ILname}.md` | Context profiles for team members, stakeholders, and other relevant people. |
 | 12 | `12_ORGANIZATION_{ILname}.md` | Mission, values, and structure of the host organization. |
 | 13 | `13_ENVIRONMENT_{ILname}.md` | Tooling, communication channels, workflows, and operating constraints. |
-| 14-18 | Reserved | Future shared template slots. |
+| 14 | `14_PROJECTS_{ILname}.md` | Portfolio of active initiatives with status, dependencies, and handoff notes. |
+| 15-18 | Reserved | Future shared template slots. |
 | 19 | `19_GLOSSARY_{ILname}.md` | Canonical definitions for team-specific language and shorthand. |
 | 20-99 | Custom extensions | Additional identity files your team creates to extend the layer. |
 
