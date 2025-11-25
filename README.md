@@ -2,6 +2,8 @@
 
 Use this repository as the starter Team Identity Layer. Identity Layers are Markdown bundles that define the AI’s persona, guardrails, and default context. This Team Identity Layer stands on its own as a deployable agent identity and can also be combined with a Personal Identity Layer to form a blended identity.
 
+> Looking for the Personal Identity Layer template? Switch to the `personal` branch and read its README for guidance tailored to individual users.
+
 ## Structure
 
 | Range | Category | Purpose |
@@ -22,8 +24,8 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 
 ## For Identity Maintainers
 
-1. Fork or clone this repository and rename it for your team identity (for example `Jarvis`).
-2. Replace `{ILname}` across filenames and file contents, then tailor every document to fit your team. Each heading or field is only a prompt, so reshape or delete anything that doesn’t serve you, and decide which identity files belong in this Team Identity Layer.
+1. Click **Use this template** on GitHub to create a new repository from this `team` branch.
+2. Replace `{ILname}` with your own team assistant name across all filenames and file contents, then tailor every document to fit your team. Each heading or field is only a prompt, so reshape or delete anything that doesn’t serve you, and decide which identity files belong in this Team Identity Layer.
 3. Keep all identity files directed at the AI and remove unused placeholders. Use this README for any human-facing notes.
 4. Provide either an Allowed list or a Disallowed list in `03_SOURCES_{ILname}.md`; omit the unused section to avoid conflicts.
 5. Slots 20–99 are available for additional identity files. For compatibility, avoid adding or renaming files in the 00–19 range.
@@ -31,6 +33,7 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 7. Whenever you add, rename, retire, or relocate any identity file, whether in the core slots (00-19) or custom extensions (20-99), update `01_INDEX_{ILname}.md`, keep this README’s structure table in sync with the index, and ensure any cross-references in other files stay aligned.
 8. Test the identity in your target interface(s) and iterate until the persona, tone, and guardrails behave as intended.
 9. Version this Team Identity Layer (tags or branches) so composite identities can pull updates confidently.
+10. Track upstream template changes by adding this repository as an upstream remote, then cherry-pick individual commits or merge `upstream/team` depending on how tightly you want to curate updates.
 
 ## For Operators and End Users
 
