@@ -2,7 +2,7 @@
 
 Use this repository as the starter Team Identity Layer. Identity Layers are Markdown bundles that define the AI’s persona, guardrails, and default context. This Team Identity Layer stands on its own as a deployable agent identity and can also be combined with a Personal Identity Layer to form a blended identity.
 
-> Looking for the Personal Identity Layer template? Switch to the `personal` branch and read its README for guidance tailored to individual users.
+> Looking for the Personal Identity Layer template? Use the [PILT repository](https://github.com/jack-indaboks/PILT).
 
 ## Structure
 
@@ -26,7 +26,7 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 
 ## For Identity Maintainers
 
-1. Click **Use this template** on GitHub to create a new repository from this `team` branch.
+1. Click **Use this template** on GitHub to create a new repository for your team assistant (for example `Nova`).
 2. Replace `{ILname}` with your own team assistant name across all filenames and file contents.
 3. Populate `00_CORE_{ILname}.md`:
     - **Identity** — The team persona’s mission, tone, and expertise.
@@ -40,7 +40,7 @@ Use this repository as the starter Team Identity Layer. Identity Layers are Mark
 8. Whenever you add, rename, retire, or relocate any identity file, whether in the core slots (00-19) or custom extensions (20-99), update `01_INDEX_{ILname}.md`, keep this README’s structure table in sync with the index, and ensure any cross-references in other files stay aligned.
 9. Test the identity in your target interface(s) and iterate until the persona, tone, and guardrails behave as intended.
 10. Version this Team Identity Layer (tags or branches) so composite identities can pull updates confidently.
-11. Track upstream template changes by adding this repository as an upstream remote, then cherry-picking individual commits or merging `upstream/team` depending on how tightly you want to curate updates.
+11. Track upstream template changes by referencing the template repository for your layer type.
 
 ## For Operators and End Users
 
